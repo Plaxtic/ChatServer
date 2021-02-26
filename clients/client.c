@@ -12,9 +12,9 @@
 #define MAX_BYTES 200
 static bool pause_thread = false;
 
-void exit_procedure(int sock, struct addrinfo *info, int exitcode);
 void * recv_thread(void * client);
 void send_connect(int sock);
+void exit_procedure(int sock, struct addrinfo *info);
 
 int main(int argc, const char **argv){
     char port[] = "4390";
@@ -39,19 +39,23 @@ int main(int argc, const char **argv){
                               &hints,
                               &clinfo)) != 0){
         printf("Error getting info : %s\n", gai_strerror(status));
-        exit_procedure(0, clinfo, 1);
+        exit_procedure(0, clinfo);
+        exit(1);
+        
     }
     if ((sock = socket(clinfo->ai_family,
                        clinfo->ai_socktype,
                        clinfo->ai_protocol)) == -1){
         printf("Error creating sock : %s\n", port);
-        exit_procedure(sock, clinfo, 2);
+        exit_procedure(sock, clinfo);
+        exit(2);
     }
     if (connect(sock, 
                 clinfo->ai_addr, 
                 clinfo->ai_addrlen) == -1) {
         printf("Error connecting to : %s\n", port);
-        exit_procedure(sock, clinfo, 3);
+        exit_procedure(sock, clinfo);
+        exit(3);
     }
     printf("Connected to: %s on sock %d\n", argv[1], sock);
     pthread_create(&rThread, 
@@ -60,7 +64,8 @@ int main(int argc, const char **argv){
                          (void *) &sock);
 
     send_connect(sock);
-    exit_procedure(sock, clinfo, 0);
+    exit_procedure(sock, clinfo);
+    exit(0);
 }
 
 
@@ -103,8 +108,3 @@ void send_connect(int sock) {
 }
 
 
-void exit_procedure(int sock, struct addrinfo *info, int exitcode) {
-    freeaddrinfo(info);
-    close(sock);
-    exit(exitcode);
-}

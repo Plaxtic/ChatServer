@@ -12,7 +12,6 @@
 #include "commands/commands.h"
 
 #define PORT "4390"
-#define FD_RANGE 20
 #define FILE_BUF 1024
 
 void *get_in_addr(struct sockaddr *sa);
@@ -32,13 +31,14 @@ int main(int argc, const char **argv) {
     char buf[256];    // Buffer for client data
     char msg[MSG_LEN];
     char remoteIP[INET6_ADDRSTRLEN];
-    char addresses[FD_RANGE][INET6_ADDRSTRLEN];
+    char ip_table[FD_RANGE][INET6_ADDRSTRLEN];
     // Start off with room for 5 connections
     // (We'll realloc as necessary)
     char localIP[INET6_ADDRSTRLEN] = "localhost";
     FILE *log = fopen("/home/funk/networking/beej/log", "a"); 
     int fd_count = 0;
-    int fd_size = 5;
+    int fd_size  = 5;
+    int max_fd   = 0;
     struct pollfd *pfds = malloc(sizeof *pfds * fd_size);
     // Set up and get a listening socket
     if (argc > 1){
@@ -56,7 +56,7 @@ int main(int argc, const char **argv) {
     fd_count = 1; // For the listener
 
     // Main loop
-    for(;;) {
+    while (1) {
         int poll_count = poll(pfds, fd_count, -1);
 
         if (poll_count == -1) {
@@ -89,7 +89,11 @@ int main(int argc, const char **argv) {
                                                                          remoteIP, newfd);
                         fflush(log);
                         send_online(newfd, fd_count, pfds);
+                        strncpy(ip_table[newfd], remoteIP, INET6_ADDRSTRLEN);
 
+                        if (newfd > max_fd) {
+                            max_fd = newfd;
+                        }
                         for (int k = 1; k < fd_count; ++k) {
                             if (pfds[k].fd != newfd) {
                                 sprintf(msg, "%s has joined on sock %d\n", remoteIP, newfd);
@@ -136,7 +140,7 @@ int main(int argc, const char **argv) {
                         fflush(log);
                         buf[strcspn(buf, "\n")] = 0;
 
-                        if (handle_command(buf, sender_fd)) {
+                        if (handle_command(sender_fd, buf, max_fd, ip_table)) {
                             continue;
                         }
                         // We got some good data from a client
