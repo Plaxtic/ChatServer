@@ -6,8 +6,8 @@
 #define FD_RANGE      20
 #define FILE_BUF      1024
 #define MSG_LEN       275
-#define MAX_ARGS      5
-#define FILEPATH_LEN  50
+#define NARGS         5
+#define PATHLEN       80
 #define FD_RANGE      20
 #define ACK           "ACK"
 #define END           "::ENDOFFILECODE::::::::EOF::" 
@@ -17,13 +17,6 @@ static bool pause_send = false;
 
 #ifndef __FILETRANS__
 #define __FILETRANS__
-/*
-typedef struct _arg_struct {
-    char args[MAX_ARGS][FILEPATH_LEN];
-    char ip[INET6_ADDRSTRLEN];
-    char path[FILEPATH_LEN];
-} arg_struct;
-*/
 
 bool is_file_command(char *msg);
 int file_command(char *msg, int sock); 

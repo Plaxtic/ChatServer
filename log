@@ -1,0 +1,1057 @@
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: hi
+sock 5: hi
+sock 5: q
+pollserver: socket 5 hung up
+sock 6: q
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: hi
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: FILE: v.avi 6
+sock 6: q
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: hi
+sock 6: q
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: v.avi 6
+sock 5: q
+pollserver: socket 5 hung up
+sock 6: q
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: FILE: new 6
+sock 5: FILE: test 6
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: hihi
+sock 5: hi
+sock 6: hi
+sock 5: bye
+sock 6: ls
+sock 5: help
+sock 5: ÿôÿýsock 5: ÿôÿýsock 5: 
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 7
+sock 6: q
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: socket 7 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 5: FILE: new 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 6: FILE: new 5
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: beejj/poll.o 5
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: test 6
+sock 6: FILE: beejj/poll.o
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: beejj/poll.o
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: beejj/poll.o 5
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 5: hi
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 5: FILE: alan.mkv 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 5
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 5
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 5
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: q
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: hi
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: hi
+sock 6: hi
+sock 6: q
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: hi
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: hi
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: hi
+sock 6: hi
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: hi
+sock 6: heyyy
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: strlcpy
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: 
+sock 5: 
+sock 5: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 5: FILE: alan.mkv 127.0.0.1
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: hi
+pollserver: new connection from 127.0.0.1 on socket 6
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: ds
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: assignment **args = *swp worked
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: q
+pollserver: new connection from 127.0.0.1 on socket 6
+pollserver: socket 5 hung up
+sock 6: FILE: alan.mkv 127.0.0.1
+sock 6: q
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+sock 5: d
+pollserver: new connection from 127.0.0.1 on socket 6
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6:       |                           |     |
+sock 6:       |                           |     struct arg_struct
+      |                           char *
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+sock 5: hi
+sock 6: hi
+sock 5: hi
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+sock 5: q
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: msg[7] = .
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: 
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: socket 6 hung up
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+sock 6: FILE: alan.mkv 127.0.0.1
+pollserver: new connection from 127.0.0.1 on socket 5
+pollserver: new connection from 127.0.0.1 on socket 6
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+sock 5: hi
+sock 5: q
+pollserver: socket 5 hung up
+sock 6: hiq
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+sock 5: hi
+sock 5: hi
+sock 5: hi
+sock 6: hi
+sock 6: hi
+sock 6: hi
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: c
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 6: gcc chat_server.c quicksend/quicksend.c quicksend/quicksend.h commands/commands.c commands/commands.h -pthread;cd clients/;gcc client.c ../quicksend/quicksend.c ../quicksend/quicksend.h ../commands/csock 6: ommands.c ../commands/commands.h -pthread;cd ..
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 5: hi
+sock 6: gcc chat_server.c quicksend/quicksend.c quicksend/quicksend.h commands/commands.c commands/commands.h -pthread;cd clients/;gcc client.c ../[B
+sock 6: 
+sock 6: FILE: alan.mkv 192.168.1.66
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+pollserver: new connection from 192.168.1.87 on socket 7
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+pollserver: new connection from 192.168.1.87 on socket 7
+sock 7: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+pollserver: new connection from 192.168.1.66 on socket 7
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: socket 5 hung up
+sock 6: FILE: alan.mkv 192.168.1.66
+sock 6: FILE: alan.mkv 192.168.1.66 
+pollserver: new connection from 192.168.1.87 on socket 5
+sock 5: FILE: alan.mkv 192.168.1.66 
+sock 5: FILE: alan.mkv 192.168.1.66
+sock 5: FILE: alan.mkv 192.168.1.66
+sock 5: FILE: alan.mkv 192.168.1.66
+sock 5: FILE: alan.mkv 192.168.1.66
+sock 5: FILE: alan.mkv 192.168.1.6
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: socket 7 hung up
+pollserver: new connection from 192.168.1.66 on socket 7
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+pollserver: new connection from 192.168.1.87 on socket 7
+sock 7: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 5: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 7
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+sock 5: 
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.66
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+sock 5: hi
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: IP after cast : 192.168.1.87
+sock 6: 
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: I'm having trouble passing arguments to a phread and wonder if anyone knows what is going on.
+I read that the convention is to create a struct  pointer and then cast the arguments back to it after passing it though the void *. 
+sock 6: so i made a struct like this:
+sock 6: 
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+sock 6: ok
+sock 5: good
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: ~/Videos/FORD_the-grapes-of-wrath_1940.avi 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+sock 6: FILE: /home/funk/Videos/FORD_the-grapes-of-wrath_1940.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/Videos/FORD_the-grapes-of-wrath_1940.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: void * file_send_thread(void * wrapped) {
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+sock 6: ok!
+sock 5: i got it!
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+sock 5: 
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+sock 6: 
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+sock 5: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: E: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6:         if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes,
+                sizeof(int)) == -1) {
+            perror("setsockopt");
+            exit(1);
+sock 6:         
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: â€™?
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: /home/funk/babel_vol29 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: IP before cast : 192.168.1.87
+sock 6: FILE:   alan.mkv  192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE:   alan.mkv  192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE:   alan.mkv  192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE:   alan.mkv  192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: alan.mkv 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+sock 6: hi
+sock 5: i got it!
+sock 6: and we can still chat?
+sock 5: can somone else join?
+pollserver: new connection from 192.168.1.87 on socket 7
+sock 7: hey
+sock 6: hi!
+sock 7: should i send u a massive file?
+sock 5: fo sho
+sock 7: FILE: alan.mkv 192.168.1.87
+pollserver: socket 7 hung up
+sock 5: q
+pollserver: socket 5 hung up
+sock 6: q
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: hi
+sock 5: hi!
+sock 6: file?
+sock 5: yes please :)
+sock 6: FILE: alan.mkv 192.168.1.66
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.66
+sock 5: exit?
+sock 6: yea, just to check the file 
+sock 5: ok
+sock 5: bye
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.66
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: v.avi 192.168.1.66 
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 5: jk
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: hi
+sock 6: FILE: v.avi 192.168.1.66 
+sock 6: it works! 
+sock 5: it actualy works!
+sock 5: FILE: v.avi 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+sock 5: sdfkns
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+sock 5: ACK
+ACK
+ACK
+
+ACK
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 5: FILE: v.avi 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: commands/commands.c
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: commands/commands.c 192.168.1.66
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: commands/commands.c 192.168.1.66
+sock 5: ls
+sock 5: q
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 6: FILE: quicksend/quicksend.c
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: quicksend/quicksend.c 192.168.1.66
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: quicksend/quicksend.c 192.168.1.66
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: FILE: quicksend/quicksend.c 192.168.1.66
+sock 5: cd ..
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 7
+pollserver: socket 5 hung up
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 5: FILE: alan.mkv 192.168.1.87
+pollserver: socket 5 hung up
+pollserver: socket 7 hung up
+pollserver: new connection from 192.168.1.66 on socket 5
+sock 5: .
+pollserver: new connection from 192.168.1.87 on socket 6
+sock 6: kjnk
+kjnkjn
+sock 5: FILE: alan.mkv 192.168.1.87
+pollserver: new connection from 192.168.1.87 on socket 7
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: socket 5 hung up
+pollserver: new connection from 192.168.1.87 on socket 5
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: alan.mkv 192.168.1.87
+sock 5: hi
+sock 6: still working!
+sock 6: were at 64 percent
+sock 6: its pretty slow
+sock 6: FILE: client.c 192.168.1.87
+sock 6: FILE: Makefile 192.168.1.87
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up
+pollserver: new connection from 192.168.1.66 on socket 6
+sock 6: FILE: v.avi 192.168.1.87
+pollserver: socket 6 hung up

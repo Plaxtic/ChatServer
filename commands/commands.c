@@ -12,9 +12,10 @@
 #include "../quicksend/quicksend.h"
 
 
-typedef struct _arg_struct {
-    char args[MAX_ARGS][FILEPATH_LEN];
-} arg_struct;
+struct arg_struct {
+    char *ip;
+    char *path;
+};
 
                  /*  HELPERS  */
 ///////////////////////////////////////////////////////////
@@ -46,7 +47,7 @@ void path_parse(char *path, char *msg) {
     strcpy(path, ++msg);
 }
 
-void arg_parse(char args[MAX_ARGS][FILEPATH_LEN], char *msg, int num_args) {
+void arg_parse(char args[NARGS][PATHLEN], char *msg, int num_args) {
 
     for (int i = 0; i < num_args; ++i) {
         int idx = 0;
@@ -55,18 +56,19 @@ void arg_parse(char args[MAX_ARGS][FILEPATH_LEN], char *msg, int num_args) {
         while (msg[idx] != ' ' && msg[idx] != '\n' && msg[idx]) {
             idx++;
         }
-        if (idx > FILEPATH_LEN) {
+        if (idx > PATHLEN) {
             printf("Argument %d too long\n", i+1);
         }
+        
+        //copy till wordend
         strncpy(args[i], msg, idx);
-
         args[i][idx] = 0;
-
+    
+        // jump to wordend
         msg += idx;
 
         // skip spaces
         while (*msg == ' ') {msg++;};
-
     }
 }
 
@@ -86,56 +88,40 @@ bool handshake(int dst, int src, char *msg) {
     char ack[3];
 
     printf("Initiating handshake\n");
-
+    
+    // forward command to dst
     write(dst, msg, strlen(msg));
+
+    // get and return response
     read(dst, ack, 3);
-    if (strcmp(ack, "ACK")) {
-        write(src, "RST", 3);
-        return false;
-    }
     write(src, ack, 3);
 
     if (read(src, ack, 3) <= 0) {
         return false;
     }
-    if (strcmp(ack, "ACK")) {
+    if (strcmp(ack, ACK)) {
         return false;
     }
     return true;
 }
 
 void * file_recv_thread(void * wrapped) {
-     arg_struct *args = (arg_struct *)wrapped;
+    char path[PATHLEN];
+    
+    // cut path from filename
+    path_parse(path, ((struct arg_struct *)wrapped)->path);
 
-     printf("IP after cast : %s\n", args->args[2]);
-
-     printf("args:\n1 = %s\n2 = %s\n3 = %s\n4 = %s\n", 
-             args->args[0],
-             args->args[1],
-             args->args[2],
-             args->args[3]);
-
-     recv_file_on_sock(args->args[1], args->args[2], "3490");
-     return wrapped;
+    printf("IP after cast : %s\n", ((struct arg_struct *)wrapped)->ip);
+    recv_file_on_sock(path, ((struct arg_struct *)wrapped)->ip, "3490");
+    return wrapped;
 }
 
 void * file_send_thread(void * wrapped) {
-     printf("deref : %s\n", *((char **)wrapped));
-     char args[MAX_ARGS][FILEPATH_LEN];
 
-     arg_parse(args, *((char **)wrapped), 3);
-     // arg_struct *args = (arg_struct *)wrapped; 
-
-     printf("IP after cast : %s\n", args[2]);
-
-     printf("args:\n1 = %s\n2 = %s\n3 = %s\n4 = %s\n", 
-             args[0],
-             args[1],
-             args[2],
-             args[3]);
-
-     send_file_from_sock(args[1], args[2], "3490");
-     return wrapped;
+    printf("IP after cast : %s\n", ((struct arg_struct *)wrapped)->ip);
+    send_file_from_sock(((struct arg_struct *)wrapped)->path, 
+                         ((struct arg_struct *)wrapped)->ip, "3490");
+    return wrapped;
 }
 ///////////////////////////////////////////////////////
 
@@ -144,13 +130,13 @@ void * file_send_thread(void * wrapped) {
 // serverside
 bool handle_command(int src, char *msg, int max_fd, 
                     char ip_table[FD_RANGE][INET6_ADDRSTRLEN]) {
-    char args[MAX_ARGS][FILEPATH_LEN];
+    char args[NARGS][PATHLEN];
 
     if (is_file_command(msg)) {
         int dst;
 
         arg_parse(args, msg, 3);
-        
+         
         if ((dst = ip_lookup(args[2], ip_table, max_fd)) == -1) {
             printf("Invalid IP adr : %s\n", args[2]);
         }
@@ -167,32 +153,47 @@ bool handle_command(int src, char *msg, int max_fd,
 
 // sending client
 bool client_command(char *msg, int server) {
-    char args[MAX_ARGS][FILEPATH_LEN];
-    pthread_t thread;
+    char args[NARGS][PATHLEN];
     char ack[3];
+    struct arg_struct arg_s;
+    pthread_t thread;
     
 
     if (is_file_command(msg)){
+
+        // pause recv thread 
         pause_recv = true;
         
+        // get args 
         arg_parse(args, msg, 3);
         
-        printf("parsed, waiting..\n");
+        // send command to sever
         write(server, msg, strlen(msg));
+
+        // recv and check ACK
         read(server, ack, 3);
-        
         printf("Received ACK = %s\n", ack);
-        if (strncmp(ack, "ACK", 3)) {
+        if (strncmp(ack, ACK, 3)) {
             printf("Invalid ACK : %s\n", ack);
+            write(server, "RST", 3);
             return true;
         }
-        write(server, "ACK", 3);
+        // end server handshake
+        write(server, ACK, 3);
 
-        printf("IP before cast : %s\n", args[2]);
+        // pass args to struct (for thread)
+        arg_s.path = args[1];
+        arg_s.ip   = args[2];
 
-        pthread_create(&thread, NULL, 
+        printf("IP before cast : %s\n", arg_s.ip);
+
+        // start thread
+        int ret = pthread_create(&thread, NULL, 
                        file_send_thread, 
-                       (void *)&args);
+                       (void *)&arg_s);
+
+        // keep function live so struct isn't erased
+        sleep(5);
         return true;
     }
     return false;
@@ -201,27 +202,34 @@ bool client_command(char *msg, int server) {
 
 // receiving client
 bool incoming_command(char *msg, int src) {
-    char args[MAX_ARGS][FILEPATH_LEN];
-    pthread_t thread2;
+    struct arg_struct arg_s;
+    char args[NARGS][PATHLEN];
+    pthread_t thread;
 
     if (is_file_command(msg)) {
         
+        // get args
         arg_parse(args, msg, 3);
+        
+        // pass to struct
+        arg_s.path = args[1];
+        arg_s.ip   = args[2];
 
-        printf("parsed\n");
-
-        printf("IP before cast : %s\n", args[2]);
-
-        pthread_create(&thread2, NULL, 
+        printf("IP before cast : %s\n", arg_s.ip);
+        
+        // create
+        pthread_create(&thread, NULL, 
                        file_recv_thread, 
-                       (void *)&args);
-        write(src, "ACK", 3);
+                       (void *)&arg_s);
+        write(src, ACK, 3);
+        sleep(5);
         return true;
     }
     return false;
 }
 /////////////////////////////////////////////////////
-
+// OLD
+////////////////////////////////////////////////////
 
 
 
@@ -254,7 +262,6 @@ int file_transfer(char *msg, int src) {
         if(endswith(data, END)) {
             break_signal = 1;
         }
-
         while (bytes_recv > 0) {
             bytes_sent = write(dst, p, bytes_recv);
             bytes_recv -= bytes_sent;
@@ -271,7 +278,7 @@ int file_transfer(char *msg, int src) {
 // sending client
 int send_though_server(char *msg, int sock) {
     int fd, idx = 0;
-    char path[FILEPATH_LEN] = {0};
+    char path[PATHLEN] = {0};
     char *p = msg+6;
 
     while (p[++idx] != ' ');
@@ -286,64 +293,3 @@ int send_though_server(char *msg, int sock) {
     return idx;
 }
 
-
-
-
-/*
-int recv_file(int sock, char *filepath) {
-    char data[FILE_BUF] = {0};
-    char command[strlen(filepath)+strlen("touch ")];
-    int bytes_read, bytes_written, fd, break_signal = 0;
-    unsigned char *p;
-
-    if ((fd = open(filepath, O_WRONLY)) < 0) {
-        snprintf(command, sizeof command, "touch %s", filepath);
-        system(command);
-        if ((fd = open(filepath, O_WRONLY)) < 0) {
-            printf("Failed to open file %s for writing\n",
-                                         filepath);
-            return -1;
-        }
-    }
-
-    write(sock, "ACK", strlen("ACK"));
-
-    printf("Incoming file %s\n", filepath);
-    while (1) { 
-        bytes_read = read(sock, data, FILE_BUF);
-        p = data;
-
-        if (endswith(data, END)) {
-            bytes_read -= strlen(END);
-            break_signal = 1;
-        }
-
-        while (bytes_read > 0) {
-            bytes_written = write(fd, p, bytes_read);
-            bytes_read -= bytes_written;
-            p += bytes_written;
-        }
-        if (break_signal){break;}
-    }
-    return fd;
-}
-
-
-int send_file(int target, int fd) {
-    char data[FILE_BUF] = {0};
-    int bytes_read, bytes_written;
-    void *p;
-
-    while ((bytes_read = read(fd, data, FILE_BUF)) > 0) {
-        p = data;
-
-        while (bytes_read > 0) {
-            bytes_written = write(target, p, bytes_read);
-            bytes_read -= bytes_written;
-            p += bytes_read;
-        }
-    }
-    write(target, END, sizeof END);
-    printf("Sent!\n");
-    return 0;
-}*/
